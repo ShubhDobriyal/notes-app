@@ -1,6 +1,5 @@
 :root {
-  --ff-body: "Inter", sans-serif;
-  --ff-input: "Source Code Pro", monospace;
+  --ff-body: "Source Code Pro", "Inter", sans-serif;
 }
 
 *,
@@ -23,7 +22,7 @@ body {
 }
 
 textarea {
-  font-family: var(--ff-input);
+  font-family: var(--ff-body);
   font-size: inherit;
   padding: 1rem;
   width: 100%;
@@ -209,7 +208,7 @@ button {
 }
 
 .cm-editor .cm-scroller {
-  font-family: var(--ff-input);
+  font-family: var(--ff-body);
   display: block !important;
 }
 
