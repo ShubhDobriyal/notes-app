@@ -7,16 +7,21 @@ import Home from "./pages/Home";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/login",
+      element: <Auth />,
+    },
+  ],
   {
-    path: "/notes-app/",
-    element: <Home />,
-  },
-  {
-    path: "/notes-app/login",
-    element: <Auth />,
-  },
-]);
+    basename: "/notes-app",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
