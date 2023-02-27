@@ -14,12 +14,12 @@ const router = createBrowserRouter(
       element: <Home />,
     },
     {
-      path: "/login",
+      path: "login",
       element: <Auth />,
     },
   ],
   {
-    basename: "/notes-app",
+    basename: "/notes-app/",
   }
 );
 
