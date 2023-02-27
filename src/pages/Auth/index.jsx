@@ -20,7 +20,7 @@ const Auth = () => {
   // const fetchUserData = async () => {
   //   try {
   //     const response = await fetch(
-  //       "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyD1l_5wGohDwm44WZ6NN0U3du0ebgvDFCo",
+  //       "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=",
   //       {
   //         method: "POST",
   //         headers: { "Content-Type": "application/json" },
