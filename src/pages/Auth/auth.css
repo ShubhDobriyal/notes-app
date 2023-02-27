@@ -1,7 +1,43 @@
+.highlight-content {
+  background-color: #000;
+  position: relative;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.top {
+  padding: 3rem;
+}
+
+.top p {
+  margin-top: 0.4rem;
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+
+.highlight-content svg {
+  height: 2rem;
+}
+
+.highlight-content h3 {
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 0.4rem;
+  font-weight: 400;
+}
+
+.highlight-content img {
+  width: 32rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: grayscale(1);
+}
+
 .auth-form {
   height: 100%;
-  display: grid;
-  place-items: center;
   padding: 1rem;
 }
 

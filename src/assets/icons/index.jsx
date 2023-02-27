@@ -22,7 +22,7 @@ export const Setting = (props) => {
   );
 };
 
-export const Logo = (props) => {
+export const LogoImg = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

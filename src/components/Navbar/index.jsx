@@ -1,12 +1,10 @@
-import { Folder, Logo } from "../../assets/icons";
+import { Folder } from "../../assets/icons";
+import Logo from "./Logo";
 
 const Navbar = () => {
   return (
     <nav className="navbar flex align-items-center justify-between px-5 py-1">
-      <div className="flex align-items-center">
-        <Logo className="h-1 w-1" />
-        My Notes
-      </div>
+      <Logo />
       <div className="flex align-items-center">
         <ul>
           <li>
